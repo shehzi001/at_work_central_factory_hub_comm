@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rockin_msgs</name>
-  <version>0.0.0</version>
+  <version>0.0.1</version>
   <description>RoCKIn@Work Messages Package. These are the RoCKIn Protobuf messages, not ROS messages</description>
 
   <maintainer email="alexander.moriarty@brsu.de">Alexander Moriarty</maintainer>
