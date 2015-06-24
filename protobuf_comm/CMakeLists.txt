@@ -5,7 +5,10 @@ find_package(catkin REQUIRED)
 find_package(Boost 1.46.1 REQUIRED thread system)
 find_package(OpenSSL REQUIRED)
 
-catkin_package()
+catkin_package(
+  LIBRARIES
+    protobuf_comm
+)
 
 set(CFH_ROOT_DIR ${PROJECT_SOURCE_DIR}/../at_work_central_factory_hub)
 set(PROTOBUF_COMM_SRC_DIR ${CFH_ROOT_DIR}/src/libs/protobuf_comm)
