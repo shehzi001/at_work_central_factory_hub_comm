@@ -6,7 +6,10 @@ find_package(Protobuf REQUIRED)
 
 include_directories(${PROTOBUF_INCLUDE_DIRS})
 
-catkin_package()
+catkin_package(
+  LIBRARIES
+    rockin_msgs
+)
 
 set(CFH_ROOT_DIR ${PROJECT_SOURCE_DIR}/../at_work_central_factory_hub)
 
