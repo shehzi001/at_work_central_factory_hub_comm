@@ -1,3 +1,3 @@
 [submodule "at_work_central_factory_hub"]
 	path = at_work_central_factory_hub
-	url = git@github.com:rockin-robot-challenge/at_work_central_factory_hub.git
+	url = https://github.com/rockin-robot-challenge/at_work_central_factory_hub.git
