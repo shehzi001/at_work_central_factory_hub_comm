@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="cfh_robot" type="cfh_robot_node"
+          name="cfh_robot" output="screen">
+
+        <param name="remote_refbox" type="bool" value="false"/>
+        <param name="host_name" type="string" value="localhost"/>
+        <param name="team_port" type="int" value="4450"/>
+        <param name="public_port" type="int" value="4444"/>
+        <param name="refbox_send_port" type="int" value="4444"/>
+        <param name="refbox_recv_port" type="int" value="4445"/>
+        <param name="team_send_port" type="int" value="4451"/>
+        <param name="team_recv_port" type="int" value="4450"/>
+        <param name="robot_name" type="string" value="spqr"/>
+        <param name="team_name" type="string" value="SPQR"/>
+    </node>
+</launch>
+
