@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>ros_cfh_examples</name>
+  <version>0.1.0</version>
+  <description>
+    ROS metapackages for cfh integration with ROS.
+  </description>
+
+  <maintainer email="shehzad.ahmed@smail.inf.h-brs.de">Shehzad Ahmed</maintainer>
+
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
